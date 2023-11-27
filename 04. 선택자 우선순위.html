@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>선택자 우선순위</title>
+    <style>
+        
+        h1 { background-color: pink; color: yellow; } /* 태그선택자 */
+        h1 { background-color: red;}  /* 태그선택자 / 나중에쓴거 적용 */
+
+        #id1 { background-color: cadetblue; }
+        .class1 { background-color: chartreuse; color: white; }
+        div { 
+            background-color: deepskyblue !important;  /* 태그선택자 / import붙여서 가장 후순위인데 적용됨 */ 
+            color: black; /* import안해서 후순위라 적용 안됨 */
+            width: 200px; /* 처음나온거라 적용 */
+            height: 200px; /* 처음나온거라 적용 */
+        }
+    </style>
+</head>
+<body>
+    <h1>선택자 우선순위</h1>
+    <p>
+        기본적으로 css는 위에서 아래로 적용됨<br>
+        동일한 요소를 다양한 선택자로 css가 부여된 경우 우선순위에 따라 적용됨<br>
+        우선순위 높은순 : !inportant; , 인라인스타일방식, 아이디선택자, 클래스선택자, 태그선택자 
+    </p>
+
+    <!-- 여기 안에 넣는게 인라인스타일방식( style="background-color: purple;" ) -->
+    <div id="id1" class="class1" style="background-color: plum;">우선순위테스트</div> 
+
+    
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>목록관련 스타일</title>
+    <style>
+        #ul1 {
+            list-style-type: circle;
+            list-style-type: square;
+            list-style-type: none;
+            list-style-image: url(resources/img/icon1.png);
+        }
+
+        #ol1 {
+            list-style-type: decimal-leading-zero;  /* 1 2 3 이거를 01 02 03으로 */
+            list-style-type: upper-alpha;
+            list-style-type: lower-roman;
+            list-style-type: lower-greek;
+            list-style-position: inside; /* outside(기본값) */
+        }
+    </style>
+</head>
+<body>
+    <h1>목록관련 스타일(list~)</h1>
+
+    <h3>list-style-type : 블릿기호를 변경시켜 줄 때 사용</h3>
+    <h3>list-style-image : 블릿기호를 이미지로 적용할 때 사용</h3>
+    <h3>list-style-position : 블릿기호의 위치를 조정할 때 사용</h3>
+
+    <pre>
+        *순서 없는 목록(ul)
+        선택자 {
+            list-style-type : disc(기본값) | circle | square | none;
+        }
+
+        *순서 있는 목록(ol)
+        선택자 {
+            list-style-type : descimal | decimal-leading-zero;
+            list-style-type : lower-alpaha | upper-alpaha;
+            list-style-type : lower-roman | upper-roman;
+        }
+    </pre>
+
+    <!-- (h4+ul>li*4)*2 -->
+    <h4>순서 없는 list</h4>
+    <ul id="ul1">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JAVASCRIPT</li>
+        <li>JQUERY</li>
+    </ul>
+    <h4>순서 있는 list</h4>
+    <ol id="ol1">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JAVASCRIPT</li>
+        <li>JQUERY</li>
+    </ol>
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>

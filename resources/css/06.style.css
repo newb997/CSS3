@@ -30,4 +30,22 @@
     text-shadow: 0 0 10px skyblue;
 }
 
+#ts3 {
+    text-shadow: 0 0 40px gray,
+                 0 -5px 4px yellow,
+                 0 -10px 8px orange,
+                 0 -15px 15px orangered,
+                 0 -20px 20px red;
+}
 
+#justify {
+    text-align: justify;
+}
+
+#right {
+    text-align: right;
+}
+
+#center {
+    text-align: center;
+}

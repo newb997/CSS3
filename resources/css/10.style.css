@@ -1,0 +1,33 @@
+table { /*테이블 전체에 스타일 적용*/
+    border: 1px solid;
+
+    border-collapse: separate; /*기본값*/
+    border-spacing: 20px 10px;
+    border-collapse: collapse;
+
+    width: 450px;
+    table-layout: fixed;
+}
+
+thead, tfoot {
+    background-color: rgb(180, 176, 176);
+}
+
+tbody {
+    background-color: beige;
+}
+
+th, td {
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: bottom; /* 테이블에서만됨 div에서는 안됨  */
+    border: 1px dashed red;
+
+    word-break: break-all;  /* 글자에 공백이 없어도 중간에 끊어서 내림 */
+}
+
+.borderTop {
+    border-top: 5px double blue;
+}

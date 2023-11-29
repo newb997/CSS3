@@ -1,0 +1,46 @@
+/* 전체 */
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* 헤더 */
+header {
+    width: 1000px;
+    height: 120px;
+    background-color: rgb(231, 185, 231);
+}
+.header-text {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    line-height: 120px;
+}
+
+/* 본문 */
+.content {
+    float: left;
+    width: 700px;
+    height: 500px;
+    background-color: bisque;
+}
+
+.right-side {
+    float: right;
+    width: 298px;
+    height: 500px;
+    background-color: cadetblue;
+}
+
+/* 푸터 */
+footer {
+    clear: left;  /*왼쪽으로 float 쌓은거 풀어줌 */
+    clear: both;
+    height: 120px;
+    background-color: gold;
+}
+
+
+
+
+

@@ -1,0 +1,26 @@
+ul {
+    list-style-type : none;
+    padding: 0;
+    border: 2px solid;
+    height: 50vh;  /*vh : 화면을 기준으로*/
+    width: 600px;
+
+    display: flex;
+    justify-content: left; /* 기본값 */
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+li {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border: 2px solid;
+    margin:  5px;
+    text-align: center;
+    line-height: 100px;
+}
+

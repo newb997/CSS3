@@ -1,0 +1,75 @@
+.head-text { text-align: center; }
+
+#menus {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-item {
+    width: 250px;
+    height: 200px;
+    margin: 5px;
+    /* background-color: beige; */
+    background-size: cover;
+    background: no-repeat center;
+}
+
+#menu1 {
+    background-image: url(../img/menu1.jpg);
+    background-size: cover;
+}
+
+#menu2 {
+    background-image: url(../img/menu2.jpg); 
+    background-size: 100% 100%;
+}
+
+#menu3 {
+    background-image: url(../img/menu3.jpg);
+    background-size: cover;
+}
+
+#menu4 {
+    background-image: url(../img/menu4.jpg);
+    background-size: cover;
+}
+
+#menu5 {
+    background-image: url(../img/menu5.jpg);
+    background-size: 100% 100%;
+}
+
+#menu6 {
+    background-image: url(../img/menu1.jpg);
+    background-size: cover;
+}
+
+#menu7 {
+    background-image: url(../img/menu2.jpg); 
+    background-size: 100% 100%;
+}
+
+#menu8 {
+    background-image: url(../img/menu3.jpg);
+    background-size: cover;
+}
+
+#menu9 {
+    background-image: url(../img/menu4.jpg);
+    background-size: cover;
+}
+
+#menu10 {
+    background-image: url(../img/menu5.jpg);
+    background-size: 100% 100%;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배치관련스타일</title>
+    <link rel="stylesheet" href="resources/css/13.style.css">
+</head>
+<body>
+    <h1>배치관련스타일</h1>
+    <h3>position : 상대위치(relative)와 절대위치(absolute)</h3>
+
+    <div class="outer">
+        <div class="positioning ye" id="first">1번째 자식</div>
+        <div class="positioning gr" id="second">2번째 자식</div>
+        <div class="positioning red" id="third">3번째 자식</div>
+    </div>
+
+    <h3>position : 고정위치(fixed)</h3>
+    <div class="positioning red" id="fixed-area"></div>
+
+    <hr>
+
+    <h3>visibility : 특정 요소를 보이거나 보이지 않게 하는 스타일 속성</h3>
+    <div class="vis-test ye">1번째 영역</div>
+    <!-- <div class="vis-test gr" style="display: none;">2번째 영역</div>  display: none 영역이 아예 사라짐-->  
+    <div class="vis-test gr" style="visibility: hidden;">2번째 영역</div> <!-- visibility: hidden 영역은 그대로 냅두고 사라짐. 보이지만 않는다-->
+    <div class="vis-test red">3번째 영역</div>
+
+    <b>
+        visibility : <mark>hidden;</mark>은 공간은 차지하고 있지만 보이지 않고 <br>
+        display : <mark>none;</mark>은 공간마저 보이지 않는다.
+    </b>
+
+    <hr>
+
+    <h3>float</h3>
+    <p>페이지내의 요소들을 화면으로부터 왼쪽 또는 오른쪽으로 차례대로 배치하는 속성</p>
+
+    <!-- .float-test{요소$}*5 -->
+    <div class="float-test">요소1</div>
+    <div class="float-test">요소2</div>
+    <div class="float-test">요소3</div>
+    <div class="float-test">요소4</div>
+    <div class="float-test">요소5</div>
+
+    <br clear="both"> <!-- 이거를 넣으면 float스타일 다음칸에 적용시킴 안넣으면 float옆에 그대로 쌓임 -->
+    <div>나중요소</div>
+    
+    
+
+
+
+
+
+
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>

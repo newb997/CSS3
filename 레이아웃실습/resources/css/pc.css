@@ -1,0 +1,52 @@
+/* 전체 */
+body {
+    width: 1000px;
+    background-color: cornsilk;
+}
+
+/* 헤더 */
+header {
+    height: 300px;
+}
+#logo {
+    float: left;
+}
+#login {
+    float: right;
+    margin-top: 5px;
+    height: 30px;
+}
+#titleImg {
+    clear: both;
+    height: 262px;
+    width: 100%;
+}
+
+/* 네비 */
+.navi {
+    width: 1000px;
+    height: 60px;
+    background-color: brown;
+}
+.navi>a { 
+    display: inline-block; 
+    width: 245px; 
+    color: white; 
+    text-align: center; 
+    line-height: 60px;
+}
+.navi>a:active{
+    color: yellow;
+}
+
+aside>img {
+    width: 329px;
+    height: 250px;
+}
+
+
+
+
+
+
+

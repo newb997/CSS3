@@ -1,0 +1,75 @@
+/* 전체 */
+body {
+    width: 1000px;
+    background-color: cornsilk;
+}
+
+/* 헤더 */
+header {
+    height: 300px;
+}
+#logo {
+    float: left;
+}
+#login {
+    float: right;
+    margin-top: 5px;
+    height: 30px;
+}
+#titleImg {
+    clear: both;
+    height: 262px;
+    width: 100%;
+}
+
+/* 네비 */
+.navi {
+    width: 1000px;
+    height: 60px;
+    background-color: brown;
+}
+.navi>a { 
+    display: inline-block; 
+    width: 245px; 
+    color: white; 
+    text-align: center; 
+    line-height: 60px;
+}
+.navi>a:hover{
+    color: yellow;
+}
+
+.navi>a:active{
+    color: blue;
+}
+
+aside>img {
+    width: 329px;
+    height: 200px;
+}
+
+section {
+    margin: 10px 200px;
+    line-height: 35px;
+}
+
+section>article>h4 {
+    color: cadetblue;
+}
+
+footer {
+    color: white;
+    background-color: dodgerblue;
+    margin-top: 10px;
+    padding: 30px 60px 0px 60px;
+    line-height: 30px;
+}
+
+footer>p {
+    color: white;
+}
+
+
+
+
+
